@@ -1,0 +1,44 @@
+body {
+  background: #272727;
+  color: #fff;
+}
+
+.list-group-item {
+  border-color: #272727;
+}
+
+.balkan {
+  color: white;
+  background: rgba(255, 170, 0, 0.2);
+  border-color: rgb(255, 170, 0);
+}
+
+.western {
+  color: white;
+  background: rgba(120, 39, 173, 0.2);
+  border-color: rgb(120, 39, 173);
+}
+
+.eastern {
+  color: white;
+  background: rgba(194, 42, 42, 0.2);
+  border-color: rgb(194, 42, 42);
+}
+
+.southern {
+  color: white;
+  background: rgba(2, 138, 2, 0.2);
+  border-color: rgb(2, 138, 2);
+}
+
+.northern {
+  color: white;
+  background: rgba(76, 76, 236, 0.2);
+  border-color: rgb(76, 76, 236);
+}
+
+.central {
+  color: white;
+  background: rgba(66, 224, 190, 0.2);
+  border-color: rgb(66, 224, 190);
+}

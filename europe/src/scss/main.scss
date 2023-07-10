@@ -1,0 +1,57 @@
+$primary-color: #272727;
+$text-color: #fff;
+$balkan: rgb(255, 170, 0);
+$northern: rgb(76, 76, 236);
+$southern: rgb(2, 138, 2);
+$western: rgb(120, 39, 173);
+$eastern: rgb(194, 42, 42);
+$central: rgb(66, 224, 190);
+
+
+body
+{
+    background: $primary-color;
+    color: $text-color;
+}
+
+.list-group-item
+{
+    border-color: #272727;
+}
+
+.balkan
+{
+    color: white;
+    background: rgba($balkan, .2);
+    border-color: $balkan;
+}
+.western
+{
+    color: white;
+    background: rgba($western, .2);
+    border-color: $western;
+}
+.eastern
+{
+    color: white;
+    background: rgba($eastern, .2);
+    border-color: $eastern;
+}
+.southern
+{
+    color: white;
+    background: rgba($southern, .2);
+    border-color: $southern;
+}
+.northern
+{
+    color: white;
+    background: rgba($northern, .2);
+    border-color: $northern;
+}
+.central
+{
+    color: white;
+    background: rgba($central, .2);
+    border-color: $central;
+}
