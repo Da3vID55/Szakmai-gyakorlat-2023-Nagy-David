@@ -1,0 +1,256 @@
+@import "~bootstrap/scss/bootstrap-grid.scss";
+
+$primary-color: #272727;
+$nav-color: rgb(65, 65, 65);
+$text-color: #fff;
+$balkan: rgb(255, 170, 0);
+$northern: rgb(76, 76, 236);
+$southern: rgb(2, 138, 2);
+$western: rgb(120, 39, 173);
+$eastern: rgb(194, 42, 42);
+$central: rgb(66, 224, 190);
+$selected: rgb(214, 214, 214);
+
+body
+{
+    background: $primary-color;
+    color: $text-color;
+}
+
+nav
+{
+    background: $nav-color;
+    padding: 15px;
+}
+
+nav a
+{
+    border: 1px solid;
+    border-color: $nav-color;
+    border-radius: 0;
+    padding: 15px;
+    color: $text-color;
+    text-decoration: none;
+}
+nav a:hover
+{
+    background-color: rgb(83, 83, 83);
+}
+
+
+.title
+{
+    padding: 10px;
+}
+
+.topToolBar
+{
+    padding-bottom: 10px;
+}
+
+ul.countryItem:hover > li
+{
+    background: transparent;
+    transition: background 0.5s;
+    cursor:pointer
+}
+
+.balkan
+{
+    color: white;
+    background: rgba($balkan, .2);
+    border-color: $balkan;
+}
+.western
+{
+    color: white;
+    background: rgba($western, .2);
+    border-color: $western;
+}
+.eastern
+{
+    color: white;
+    background: rgba($eastern, .2);
+    border-color: $eastern;
+}
+.southern
+{
+    color: white;
+    background: rgba($southern, .2);
+    border-color: $southern;
+}
+.northern
+{
+    color: white;
+    background: rgba($northern, .2);
+    border-color: $northern;
+}
+.central
+{
+    color: white;
+    background: rgba($central, .2);
+    border-color: $central;
+}
+.closeSelected
+{
+    font-size: 24px;
+    border: none;
+}
+.closeSelected:hover
+{ 
+    color: #272727;
+}
+
+
+@include media-breakpoint-up(lg)
+{
+    .selectedItem
+    {
+        background: rgba($selected, 0.2);
+        border: solid 1px;
+        border-color: $selected;
+        border-radius: 10px;
+    }
+    .selectedItem ul
+    {
+        border-radius: 0px;
+    }
+    .selectedItem ul li
+    {
+        background: transparent;
+        border: none;
+        color: white;
+    }
+    .selectedItem ul li.selectedItemFlag
+    {
+        border-bottom: solid 1px;
+        border-color: $selected;
+    }
+    .closeSelected
+    {
+        float: right;
+        color: $selected;
+        margin-right: -10px;
+        margin-top: -10px;
+        border-radius: 10px;
+        border: 1px, solid;
+    }
+
+    .col-md-3
+    {
+        padding: 0px;
+        border-right: solid 1px;
+        border-color: $selected;
+    }
+    .col-md-9
+    {
+        padding: 10px;
+    }
+    img.countryFlagImage
+    {
+    border-radius: 10px;
+    height: 100px;
+    width: auto;
+    }
+}
+
+@include media-breakpoint-down(lg)
+{
+    .selectedItem
+    {
+        background: rgba($selected, 0.2);
+        border: solid 1px;
+        border-color: $selected;
+        border-radius: 10px;
+    }
+    .selectedItem ul
+    {
+        border-radius: 0px;
+    }
+    .selectedItem ul li
+    {
+        background: transparent;
+        border: none;
+        color: white;
+    }
+    .selectedItem ul li.selectedItemFlag
+    {
+        border-bottom: solid 1px;
+        border-color: $selected;
+    }
+    .closeSelected
+    {
+        float: right;
+        color: $selected;
+        margin-right: -10px;
+        margin-top: -10px;
+    }
+
+    .col-md-3
+    {
+        padding: 0px;
+        border-right: solid 1px;
+        border-color: $selected;
+    }
+    .col-md-9
+    {
+        padding: 10px;
+    }
+    img.countryFlagImage
+    {
+        border-radius: 10px;
+        height: 60px;
+        width: auto;
+    }
+}
+
+@include media-breakpoint-down(md)
+{
+    .selectedItem
+    {
+        background: rgba($selected, 0.2);
+        border: solid 1px;
+        border-color: $selected;
+        border-radius: 10px;
+    }
+    .selectedItem ul
+    {
+        border-radius: 0px;
+    }
+    .selectedItem ul li
+    {
+        background: transparent;
+        border: none;
+        color: white;
+    }
+    .selectedItem ul li.selectedItemFlag
+    {
+        border-bottom: solid 1px;
+        border-color: $selected;
+    }
+    .closeSelected
+    {
+        float: right;
+        color: $selected;
+        margin-right: -15px;
+        margin-top: -10px;
+    }
+
+    .col-md-3
+    {
+        padding: 0px;
+        border-right: 0px;
+    }
+    .col-md-9
+    {
+        border:none;
+        border-top: solid 1px;
+        border-color: $selected;
+        padding: 10px;
+    }
+    img.countryFlagImage
+    {
+        margin-right: -15px;
+    }
+}
+

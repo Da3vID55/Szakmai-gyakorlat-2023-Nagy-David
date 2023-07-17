@@ -1,0 +1,333 @@
+
+div.mapContainer
+{
+    padding: 0px;
+    border: solid 2px;
+    border-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.allPinsFlag
+{
+    display: none;
+}
+
+.allPins:hover
+{
+    z-index: 100;
+}
+
+.allPins:hover .allPinsFlag
+{
+    display: block;
+}
+
+.mapImage
+{
+    position: relative;
+}
+
+.mapContainer img
+{
+    border-radius: 3px;
+}
+.pinFlag
+{
+    margin: 10px;
+}
+
+.mapImage
+{
+    z-index: 0;
+}
+
+.pin
+{
+    z-index: 1;
+    position: absolute;
+    transform: translate(-50%,-100%);
+}
+
+div.AustriaPin
+{
+    top: 67%;
+    left: 44%;
+}
+
+div.AlbaniaPin
+{
+    top: 83%;
+    left: 53.5%;
+}
+
+div.AndorraPin
+{
+    top: 79.5%;
+    left: 22.3%;
+}
+
+div.BelarusPin
+{
+    top: 49%;
+    left: 61%;
+}
+
+div.BelgiumPin
+{
+    top: 59%;
+    left: 29%;
+}
+
+div.BelgiumPin
+{
+    top: 59%;
+    left: 29%;
+}
+
+div.Bosnia-and-HerzegovinaPin
+{
+    top: 75.5%;
+    left: 49%;
+}
+
+div.BulgariaPin
+{
+    top: 77%;
+    left: 62%;
+}
+
+div.CroatiaPin
+{
+    top: 72%;
+    left: 47%;
+}
+
+div.Czech-RepublicPin
+{
+    top: 61%;
+    left: 44%;
+}
+
+div.DenmarkPin
+{
+    top: 46%;
+    left: 37%;
+}
+
+div.DenmarkPin
+{
+    top: 46%;
+    left: 37%;
+}
+
+div.EstoniaPin
+{
+    top: 34.5%;
+    left: 55%;
+}
+
+div.FinlandPin
+{
+    top: 28%;
+    left: 53%;
+}
+
+div.IcelandPin
+{
+    top: 15%;
+    left: 10%;
+}
+
+div.LatviaPin
+{
+    top: 40%;
+    left: 55%;
+}
+
+div.LithuaniaPin
+{
+    top: 44%;
+    left: 54.5%;
+}
+
+div.NorwayPin
+{
+    top: 33%;
+    left: 35%;
+}
+
+div.SwedenPin
+{
+    top: 38%;
+    left: 42%;
+}
+
+div.LithuaniaPin
+{
+    top: 44%;
+    left: 54.5%;
+}
+
+div.North-MacedoniaPin
+{
+    top: 81.5%;
+    left: 56.5%;
+}
+
+div.MontenegroPin
+{
+    top: 79%;
+    left: 52%;
+}
+
+div.RomaniaPin
+{
+    top: 70%;
+    left: 60%;
+}
+
+div.SerbiaPin
+{
+    top: 75%;
+    left: 54%;
+}
+
+div.SloveniaPin
+{
+    top: 71%;
+    left: 44%;
+}
+
+div.GermanyPin
+{
+    top: 58%;
+    left: 36.5%;
+}
+
+div.HungaryPin
+{
+    top: 68%;
+    left: 51%;
+}
+
+div.LiechtensteinPin
+{
+    top: 68.2%;
+    left: 35.7%;
+}
+
+div.PolandPin
+{
+    top: 55%;
+    left: 50%;
+}
+
+div.SlovakiaPin
+{
+    top: 63%;
+    left: 50%;
+}
+
+div.SwitzerlandPin
+{
+    top: 68.5%;
+    left: 34%;
+}
+
+div.MoldovaPin
+{
+    top: 64%;
+    left: 65%;
+}
+
+div.RussiaPin
+{
+    top: 35%;
+    left: 70%;
+}
+
+div.UkrainePin
+{
+    top: 57%;
+    left: 67%;
+}
+
+div.GreecePin
+{
+    top: 87%;
+    left: 57%;
+}
+
+div.ItalyPin
+{
+    top: 79%;
+    left: 40%;
+}
+
+div.MaltaPin
+{
+    top: 97.7%;
+    left: 44.8%;
+}
+
+div.MonacoPin
+{
+    top: 77%;
+    left: 32%;
+}
+
+div.PortugalPin
+{
+    top: 85%;
+    left: 4%;
+}
+
+div.San-MarinoPin
+{
+    top: 76.4%;
+    left: 40.3%;
+}
+
+div.SpainPin
+{
+    top: 85%;
+    left: 13%;
+}
+
+div.Vatican-CityPin
+{
+    top: 81.9%;
+    left: 40.65%;
+}
+
+div.FrancePin
+{
+    top: 70%;
+    left: 25%;
+}
+
+div.IrelandPin
+{
+    top: 49%;
+    left: 12.5%;
+}
+
+div.LuxembourgPin
+{
+    top: 61%;
+    left: 30.6%;
+}
+
+div.NetherlandsPin
+{
+    top: 55%;
+    left: 30%;
+}
+
+div.United-KingdomPin
+{
+    top: 53%;
+    left: 20%;
+}
+
