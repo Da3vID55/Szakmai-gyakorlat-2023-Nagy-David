@@ -1,0 +1,27 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background: rgb(30, 30, 58);
+    color: white;
+    position: relative;
+    min-height: 100%;
+}
+
+.pin
+{
+    position: absolute;
+}
+
+.pinImage:hover + .pinData
+{
+    display: none;
+}
+
+.arrowButton
+{
+    font-size: 20px;
+}
